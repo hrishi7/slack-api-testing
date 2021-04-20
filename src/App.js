@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+// import {Animation} from './Animation';
+// import {Heading} from './Heading'
 import './App.css';
+import {CssBaseline } from '@material-ui/core';
+import SlackTesting from './components/SlackTesting';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SlackTesting/>
+      {/* <Heading/>
+     <Animation/> */}
+     <CssBaseline/>
     </div>
   );
 }
