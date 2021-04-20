@@ -3,7 +3,7 @@ import { WebClient, LogLevel } from "@slack/web-api";
 
 function SlackTesting() {
   const client = new WebClient(
-    "xoxb-1986076174020-1992680574129-VE7aFeFXUpY4WQG9OQEE9P0S",
+    "API_TOKEN",
     {
       // LogLevel can be imported and used to make debugging simpler
       logLevel: LogLevel.DEBUG,
